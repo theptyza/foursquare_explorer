@@ -21,4 +21,14 @@ You will need to create a secrets.json file in the same directory as the script.
   "VERSION": "20190425"
 }
 ```
-
+## Sample output
+This data can be used to create choropleth maps of venue density. For example here is a map of College & University venues density in and around Moscow with 500m x 500m squares.
+![Map of College & University venues density in and around Moscow](map_moscow_college.png?raw=true "Map of College & University venues density in and around Moscow")  
+The params used were:
+```
+START = [55.755825, 37.617298]
+HEIGHT = 50
+WIDTH = 40
+STEP = 0.5
+RADIUS = 1500
+```
