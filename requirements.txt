@@ -3,5 +3,5 @@ geojson==2.4.1
 geopy==1.19.0
 numpy==1.16.3
 pandas==0.24.2
-requests==2.21.0
+requests==2.31.0
 tqdm==4.31.1
